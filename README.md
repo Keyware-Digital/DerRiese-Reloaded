@@ -74,6 +74,7 @@ v1.59:
 *Fixed godmode flak jacket bug.
 *Fixed Kar98k lacking bowie knife melee sounds.
 *Fixed tesla_gun HP glitch.
+*Set default fov as 80.
 *Rewrote perk bottle code.
 
 v1.57:
