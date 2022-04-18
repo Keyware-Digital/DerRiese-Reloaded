@@ -49,7 +49,6 @@ main(init_zombie_spawner_name)
 	maps\_load::main();
 
 	PrecacheModel("viewmodel_rus_guard_padded_arms");
-	PrecacheModel("viewmodel_usa_marine_rolledup_arms");
 	PrecacheModel("viewmodel_jap_infantry_arms");
 	PrecacheModel("viewmodel_usa_pbycrew_arms");
 	PrecacheModel("viewmodel_usa_raider_arms");
@@ -2600,7 +2599,7 @@ player_damage_override( eInflictor, eAttacker, iDamage, iDFlags, sMeansOfDeath, 
 {
 	self thread pain_sound_player();
 	
-	/*	
+	/* Disabled because it gives you god mode lel
 	if(self hasperk("specialty_armorvest") && eAttacker != self)
 	{
 			iDamage = iDamage * 0.75;

@@ -842,7 +842,6 @@ Set_Custom_Arms()
 	arms = "viewmodel_usa_marine_arms"; // default
 
 	PrecacheModel("viewmodel_rus_guard_padded_arms");
-	PrecacheModel("viewmodel_usa_marine_rolledup_arms");
 	PrecacheModel("viewmodel_jap_infantry_arms");
 	PrecacheModel("viewmodel_usa_pbycrew_arms");
 	PrecacheModel("viewmodel_usa_raider_arms");
