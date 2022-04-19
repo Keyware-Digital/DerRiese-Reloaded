@@ -55,7 +55,7 @@ init_powerups()
 	add_zombie_powerup( "double_points","zombie_x2_icon",	&"ZOMBIE_POWERUP_DOUBLE_POINTS" );
 	add_zombie_powerup( "full_ammo",  	"zombie_ammocan",	&"ZOMBIE_POWERUP_MAX_AMMO");
 	add_zombie_powerup( "carpenter",  	"zombie_carpenter",	&"ZOMBIE_POWERUP_MAX_AMMO");
-	add_zombie_powerup( "perk",		"zombie_3rd_perk_bottle_sleight",			&"Flak Jacket" );
+	add_zombie_powerup( "perk",		"zombie_3rd_perk_bottle_sleight",			&"ZOMBIE_PERK_FLAK_JACKET" );	//was Flak Jacket
 
 	//	add_zombie_special_powerup( "monkey" );
 
