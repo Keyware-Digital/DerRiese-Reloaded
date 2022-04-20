@@ -51,7 +51,7 @@ main(init_zombie_spawner_name)
 	PrecacheModel("viewmodel_rus_guard_padded_arms");
 	PrecacheModel("viewmodel_jap_infantry_arms");
 	PrecacheModel("viewmodel_usa_pbycrew_arms");
-	PrecacheModel("viewmodel_usa_raider_arms");
+	PrecacheModel("viewmodel_hands_cloth_marine_bare");
 
 	level.hudelem_count = 0;
 	// Call the other zombiemode scripts

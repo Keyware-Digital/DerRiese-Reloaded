@@ -844,11 +844,11 @@ Set_Custom_Arms()
 	PrecacheModel("viewmodel_rus_guard_padded_arms");
 	PrecacheModel("viewmodel_jap_infantry_arms");
 	PrecacheModel("viewmodel_usa_pbycrew_arms");
-	PrecacheModel("viewmodel_usa_raider_arms");
+	PrecacheModel("viewmodel_hands_cloth_marine_bare");
 	switch(self.entity_num)
 	{
 		case 0:
-			arms ="viewmodel_usa_raider_arms";
+			arms ="viewmodel_hands_cloth_marine_bare";
 			break;
 		case 1:
 			arms ="viewmodel_rus_guard_padded_arms";

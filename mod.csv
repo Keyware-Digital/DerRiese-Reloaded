@@ -8,10 +8,10 @@ weapon,sp/mosin_rifle_scoped_zombie_upgraded
 weapon,sp/mine_bouncing_betty
 sound,mod_dr_weapons,,all_mp
 sound,mod_dr_vox,nazi_zombie_factory,all_sp
+xmodel,viewmodel_hands_cloth_marine_bare
 xmodel,viewmodel_rus_guard_padded_arms
 xmodel,viewmodel_jap_infantry_arms
 xmodel,viewmodel_usa_pbycrew_arms
-xmodel,viewmodel_usa_raider_arms
 material,logo_cod2
 material,specialty_phd_zombies
 material,specialty_longersprint_zombies
