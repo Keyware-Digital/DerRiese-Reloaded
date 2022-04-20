@@ -2439,9 +2439,11 @@ ammo_give( weapon, also_has_upgrade )
 	{
 		self playsound( "cha_ching" ); 
 		self GivemaxAmmo( weapon ); 
+		self SetWeaponAmmoClip( weapon, WeaponClipSize( weapon ) ); 
 		if( also_has_upgrade )
 		{
 			self GiveMaxAmmo( weapon+"_upgraded" );
+			self SetWeaponAmmoClip( weapon+"_upgraded", WeaponClipSize( weapon+"_upgraded" ) ); 
 		}
 		return true;
 	}
