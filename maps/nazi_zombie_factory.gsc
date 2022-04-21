@@ -450,7 +450,7 @@ init_sounds()
 // Also adds these weapons to the random treasure chest.
 include_weapons()
 {
-	// New - Trebor(Test)
+	// Der Riese: Reloaded
 	//include_weapon( "type99_lmg" );
 
 	include_weapon( "zombie_colt", true );
