@@ -10,7 +10,7 @@ init()
 	level.zombie_health = 150; 
 	
 	level.zombie_eyes_limited = 1;
-	level.zombie_eyes_disabled = 1;
+	level.zombie_eyes_disabled = 0;
 	
 	if(getdvarint("g_allzombieseyeglow"))
 	{
@@ -3242,13 +3242,13 @@ zombie_eye_glow()
 		return;
 	}
 
-/*	if(!isdefined(level._numZombEyeGlows))
+	if(!isdefined(level._numZombEyeGlows))
 	{
 		level._numZombEyeGlows = 0;
 	}
 	
-//	if(level.zombie_eyes_limited && level._numZombEyeGlows > 8)
-//		return;
+	if(level.zombie_eyes_limited && level._numZombEyeGlows > 8)
+		return;
 
 	if ( level.zombie_eyes_disabled )
 	{
@@ -3273,20 +3273,20 @@ zombie_eye_glow()
 	PlayFxOnTag( level._effect["eye_glow"], self.fx_eye_glow, fxTag );
 	
 	level._numZombEyeGlows ++;
-	addtagname(linkTag);
-	self haseyes(1);*/
+	//addtagname(linkTag);
+	self haseyes(1);
 }
 
 // Called when either the Zombie dies or if his head gets blown off
 zombie_eye_glow_stop()
 {
-/*	if( IsDefined( self.fx_eye_glow ) )
+	if( IsDefined( self.fx_eye_glow ) )
 	{
 		self.fx_eye_glow Delete();
 		level._numZombEyeGlows --;
 	} 
 	
-	self haseyes(0);*/
+	self haseyes(0);
 }
 
 

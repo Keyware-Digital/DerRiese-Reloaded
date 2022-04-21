@@ -11,6 +11,7 @@ maps\_zombiemode_blockers_new.gsc
 maps\_zombiemode_dogs.gsc
 maps\_zombiemode_perks.gsc
 maps\_zombiemode_powerups.gsc
+maps\_zombiemode_spawner.gsc
 maps\_zombiemode_tesla.gsc
 maps\_zombiemode_weapons.gsc
 maps\nazi_zombie_factory.gsc
