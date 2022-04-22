@@ -256,7 +256,7 @@ intro_screen()
 	flag_wait( "all_players_connected" );
 	wait(2);
 	level.intro_hud = [];
-	for(i = 0;  i < 3; i++)
+	for(i = 0;  i < 4; i++)
 	{
 		level.intro_hud[i] = newHudElem();
 		level.intro_hud[i].x = 0;
@@ -279,32 +279,33 @@ intro_screen()
 		level.intro_hud[i].color = (1, 1, 1);
 		level.intro_hud[i].inuse = false;
 	}
-	level.intro_hud[0].y = -110;
-	level.intro_hud[1].y = -90;
-	level.intro_hud[2].y = -70;
+	level.intro_hud[0].y = -130;
+	level.intro_hud[1].y = -110;
+	level.intro_hud[2].y = -90;
+	level.intro_hud[3].y = -70;
 
-
-	level.intro_hud[0] settext(&"ZOMBIE_INTRO_FACTORY_LEVEL_PLACE");
-	level.intro_hud[1] settext("");
-	level.intro_hud[2] settext("");
+	level.intro_hud[0] settext("Waffenfabrik Der Riese");
+	level.intro_hud[1] settext("Lower Silesia, near");
+	level.intro_hud[2] settext("Breslau, Germany");
+	level.intro_hud[3] settext("October 28th, 1945");
 //	level.intro_hud[1] settext(&"ZOMBIE_INTRO_FACTORY_LEVEL_TIME");
 //	level.intro_hud[2] settext(&"ZOMBIE_INTRO_FACTORY_LEVEL_DATE");
 
-	for(i = 0 ; i < 3; i++)
+	for(i = 0 ; i < 4; i++)
 	{
 		level.intro_hud[i] FadeOverTime( 3.5 ); 
 		level.intro_hud[i].alpha = 1;
 		wait(1.5);
 	}
 	wait(1.5);
-	for(i = 0 ; i < 3; i++)
+	for(i = 0 ; i < 4; i++)
 	{
 		level.intro_hud[i] FadeOverTime( 3.5 ); 
 		level.intro_hud[i].alpha = 0;
 		wait(1.5);
 	}	
-	//wait(1.5);
-	for(i = 0 ; i < 3; i++)
+	wait(2);
+	for(i = 0 ; i < 4; i++)
 	{
 		level.intro_hud[i] destroy();
 	}
