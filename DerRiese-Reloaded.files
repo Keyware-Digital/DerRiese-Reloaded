@@ -24,8 +24,6 @@ sound\music_mainmenu\main_menu.wav
 soundaliases\menu_music.csv
 soundaliases\mod_dr_vox.csv
 soundaliases\mod_dr_weapons.csv
-ui\factory_main.menu
-ui\factory_options_game_pc.menu
 weapons\sp\m1garand_gl_zombie
 weapons\sp\m1garand_gl_zombie_upgraded
 weapons\sp\m2_flamethrower_zombie

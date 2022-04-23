@@ -285,8 +285,8 @@ intro_screen()
 	level.intro_hud[3].y = -70;
 
 	level.intro_hud[0] settext("Waffenfabrik Der Riese");
-	level.intro_hud[1] settext("Lower Silesia, near");
-	level.intro_hud[2] settext("Breslau, Germany");
+	level.intro_hud[1] settext("Lower Silesia");
+	level.intro_hud[2] settext("Near Breslau, Germany");
 	level.intro_hud[3] settext("October 28th, 1945");
 //	level.intro_hud[1] settext(&"ZOMBIE_INTRO_FACTORY_LEVEL_TIME");
 //	level.intro_hud[2] settext(&"ZOMBIE_INTRO_FACTORY_LEVEL_DATE");
