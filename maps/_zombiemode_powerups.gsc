@@ -10,9 +10,9 @@ init()
 	PrecacheShader( "specialty_phd_zombies" );
 	PrecacheShader( "specialty_aim_zombies" );
 	PrecacheShader( "specialty_longersprint_zombies" );
+	PrecacheShader( "black" ); 
 
 	PrecacheModel( "zombie_pickup_perkbottle" );
-	PrecacheShader( "black" ); 
 	
 	// powerup Vars
 	set_zombie_var( "zombie_insta_kill", 				0 );
