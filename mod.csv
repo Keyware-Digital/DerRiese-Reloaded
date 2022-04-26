@@ -8,7 +8,7 @@ menufile,ui/factory_main.menu
 menufile,ui/factory_options_game_pc.menu
 sound,mod_dr_weapons,,all_mp
 sound,mod_dr_vox,nazi_zombie_factory,all_sp
-sound,menu_music,,all_sp
+sound,mod_dr_menu_music,,all_sp
 sound,music_mainmenu,main_menu
 weapon,sp/zombie_doublebarrel_sawed
 weapon,sp/zombie_doublebarrel_sawed_upgraded
