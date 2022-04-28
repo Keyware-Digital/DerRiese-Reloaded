@@ -21,7 +21,6 @@ materials\specialty_aim_zombies
 materials\specialty_longersprint_zombies
 materials\specialty_phd_zombies
 sound\music_mainmenu\main_menu.wav
-soundaliases\menu_music.csv
 soundaliases\mod_dr_vox.csv
 soundaliases\mod_dr_weapons.csv
 weapons\sp\m1garand_gl_zombie

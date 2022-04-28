@@ -187,7 +187,7 @@ init_weapons()
 	// Zombify
 	PrecacheItem( "zombie_melee" );
 
-	// New - Trebor
+	// Der Riese: Reloaded
 	//add_zombie_weapon( "type99_lmg", "", 2500, "vox_mg", 5);
 	add_zombie_weapon( "mosin_rifle_scoped_zombie",&"ZOMBIE_WEAPON_MOSIN_S_B_750",750,"vox_ppsh",5);
 	add_zombie_weapon( "mosin_rifle_scoped_zombie_upgraded",&"ZOMBIE_WEAPON_MOSIN_S_B_750",750,"vox_ppsh",5);
