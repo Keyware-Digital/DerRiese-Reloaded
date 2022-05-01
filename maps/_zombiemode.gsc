@@ -1043,7 +1043,7 @@ onPlayerSpawned()
 				self maps\_zombiemode_score::set_player_score_hud( true ); 
 				self thread player_zombie_breadcrumb();
 				self thread player_melee();
-				//self thread player_reload();
+				self thread player_reload();
 
 				//Init stat tracking variables
 				self.stats["kills"] = 0;
@@ -3584,11 +3584,16 @@ player_reload()
 	{
 		self waittill( "reload_start" );
 		wpn = self getCurrentWeapon();
+
+		//dont bombard the player with repetititve sounds
+		reload_vox = randomintrange(1,101); 
+		percentage = 25;
+		
 		if( !isDefined( wpn ) || wpn == "" ) //List the weapons you don't want them to say vox when reloading.
 		{
 			continue;
 		}
-		if( level.player_is_speaking != 1 )
+		if( ( reload_vox <= percentage ) && (level.player_is_speaking != 1 ) )
 		{
 			sound = maps\_zombiemode_weapons::get_player_index( self );
 			level.player_is_speaking = 1;
@@ -3601,7 +3606,7 @@ player_reload()
 			wait 0.3;
 			continue;
 		}
-	wait 5; //Cool down time (Change this if you want them to say it less)
+	wait 5; //Cool down time (Change this if you want them to say it less)	(using wait 5; instead of wait(randomintrange(120,210))
 	}
 }
 
@@ -3620,10 +3625,10 @@ player_melee()
 				sound = maps\_zombiemode_weapons::get_player_index( self );
 				level.player_is_speaking = 1;
 				self playsound( "plr_" + sound + "_vox_gen_exert_" + r );
-				wait 1;
+				wait 0.5;
 				level.player_is_speaking = 0;
 			}
 		}
-	wait 1;
+	wait 0.5;
 	}
 }
