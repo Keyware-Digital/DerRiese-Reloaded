@@ -107,6 +107,8 @@ main()
 	{
 		players[i] thread player_killstreak_timer();
 		players[i] thread player_zombie_awareness();
+		//dev
+		//players[i] SetClientDvar("sv_cheats", 1); //enable cheats for testing purposes
 	}
 	
 	players[randomint(players.size)] thread level_start_vox(); //Plays a "Power's Out" Message from a random player at start
