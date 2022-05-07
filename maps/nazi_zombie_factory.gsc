@@ -108,7 +108,7 @@ main()
 		players[i] thread player_killstreak_timer();
 		players[i] thread player_zombie_awareness();
 		//dev
-		//players[i] SetClientDvar("sv_cheats", 1); //enable cheats for testing purposes
+		players[i] SetClientDvar("sv_cheats", 1); //enable cheats for testing purposes
 	}
 	
 	players[randomint(players.size)] thread level_start_vox(); //Plays a "Power's Out" Message from a random player at start
@@ -507,6 +507,7 @@ include_weapons()
 	// Flamethrower
 	include_weapon( "m2_flamethrower_zombie" );
 	include_weapon( "m2_flamethrower_zombie_upgraded", false );
+	include_weapon( "m2_flamethrower_zombie_powerup", false );
 
 	// Shotgun
 	include_weapon( "zombie_doublebarrel" );

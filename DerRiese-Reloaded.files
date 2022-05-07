@@ -29,6 +29,7 @@ ui\factory_options_game_pc.menu
 weapons\sp\m1garand_gl_zombie
 weapons\sp\m1garand_gl_zombie_upgraded
 weapons\sp\m2_flamethrower_zombie
+weapons\sp\m2_flamethrower_zombie_powerup
 weapons\sp\m2_flamethrower_zombie_upgraded
 weapons\sp\m7_launcher_zombie
 weapons\sp\m7_launcher_zombie_upgraded
