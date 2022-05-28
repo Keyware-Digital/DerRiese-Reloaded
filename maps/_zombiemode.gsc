@@ -1503,7 +1503,7 @@ round_spawning()
 
 
 	
-	if(level.round_number < 3 && level.script == "nazi_zombie_asylum")
+	if(level.round_number < 3 && level.script == "nazi_zombie_factory")
 	{
 		if(get_players().size > 1)
 		{
