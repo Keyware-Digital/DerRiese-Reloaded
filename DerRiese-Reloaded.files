@@ -26,6 +26,8 @@ soundaliases\mod_dr_vox.csv
 soundaliases\mod_dr_weapons.csv
 ui\factory_main.menu
 ui\factory_options_game_pc.menu
+weapons\sp\kar98k_scoped_zombie
+weapons\sp\kar98k_scoped_zombie_upgraded
 weapons\sp\m1garand_gl_zombie
 weapons\sp\m1garand_gl_zombie_upgraded
 weapons\sp\m2_flamethrower_zombie
@@ -43,10 +45,14 @@ weapons\sp\ptrs41_zombie
 weapons\sp\ptrs41_zombie_upgraded
 weapons\sp\ray_gun
 weapons\sp\ray_gun_upgraded
+weapons\sp\springfield_scoped_zombie
+weapons\sp\springfield_scoped_zombie_upgraded
 weapons\sp\stielhandgranate
 weapons\sp\tesla_gun
 weapons\sp\tesla_gun_upgraded
 weapons\sp\type99_lmg
+weapons\sp\type99_rifle_scoped_zombie
+weapons\sp\type99_rifle_scoped_zombie_upgraded
 weapons\sp\zombie_30cal
 weapons\sp\zombie_30cal_upgraded
 weapons\sp\zombie_bar

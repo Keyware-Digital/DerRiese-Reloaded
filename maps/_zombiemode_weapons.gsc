@@ -188,9 +188,10 @@ init_weapons()
 	PrecacheItem( "zombie_melee" );
 
 	// Der Riese: Reloaded
-	//add_zombie_weapon( "type99_lmg", "", 2500, "vox_mg", 5);
-	add_zombie_weapon( "mosin_rifle_scoped_zombie",&"ZOMBIE_WEAPON_MOSIN_S_B_750",750,"vox_ppsh",5);
-	add_zombie_weapon( "mosin_rifle_scoped_zombie_upgraded",&"ZOMBIE_WEAPON_MOSIN_S_B_750",750,"vox_ppsh",5);
+//	add_zombie_weapon( "kar98k_scoped_zombie_upgraded",			&"ZOMBIE_WEAPON_KAR98K_S_750",				750,	"vox_ppsh",		5);
+	add_zombie_weapon( "mosin_rifle_scoped_zombie_upgraded",	&"ZOMBIE_WEAPON_MOSIN_S_B_750",				750,	"vox_ppsh",		5);
+//	add_zombie_weapon( "springfield_scoped_zombie_upgraded",	&"ZOMBIE_WEAPON_SPRINGFIELD_S_750",			750,	"vox_ppsh",		5);
+//	add_zombie_weapon( "type99_rifle_scoped_zombie",			&"ZOMBIE_WEAPON_TYPE99_S_B_750",			750,	"vox_ppsh",		5);
 	
 
 	// Pistols

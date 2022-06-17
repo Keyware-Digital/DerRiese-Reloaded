@@ -454,9 +454,10 @@ init_sounds()
 include_weapons()
 {
 	// Der Riese: Reloaded
-	//include_weapon( "type99_lmg" );
+	//include_weapon( "type99_lmg" );	//teaser
 
-	include_weapon( "zombie_colt", true );
+	// Pistols
+	include_weapon( "zombie_colt" );
 	include_weapon( "zombie_colt_upgraded", false );
 	include_weapon( "zombie_sw_357" );
 	include_weapon( "zombie_sw_357_upgraded", false );
@@ -464,9 +465,9 @@ include_weapons()
 	// Bolt Action
 	include_weapon( "zombie_kar98k", false );
 	include_weapon( "zombie_kar98k_upgraded", false );
-//	include_weapon( "springfield");		
-	include_weapon( "zombie_type99_rifle", true );
-	include_weapon( "zombie_type99_rifle_upgraded", false );
+//	include_weapon( "springfield");		//replaced with kar98k
+	include_weapon( "zombie_type99_rifle" );		//restored
+	include_weapon( "zombie_type99_rifle_upgraded", false );		//restored
 	
 	// Semi Auto
 	include_weapon( "zombie_m1carbine" );
@@ -490,9 +491,12 @@ include_weapons()
 	include_weapon( "ptrs41_zombie" );
 	include_weapon( "ptrs41_zombie_upgraded", false );
 //	include_weapon( "kar98k_scoped_zombie" );	// replaced with type99_rifle_scoped
-//	include_weapon( "type99_rifle_scoped_zombie" );	//
-	include_weapon( "mosin_rifle_scoped_zombie", true );
-	include_weapon( "mosin_rifle_scoped_zombie_upgraded", false );
+//	include_weapon( "kar98k_scoped_zombie_upgraded", false );
+//	include_weapon( "type99_rifle_scoped_zombie" );
+	include_weapon( "mosin_rifle_scoped_zombie" );		//restored
+	include_weapon( "mosin_rifle_scoped_zombie_upgraded", false );		//restored
+//	include_weapon( "springfield_scoped_zombie" );		//replaced with kar98k_scoped
+//	include_weapon( "springfield_scoped_zombie_upgraded", false );
 
 	// Grenade
 	include_weapon( "molotov" );
@@ -512,8 +516,8 @@ include_weapons()
 	// Shotgun
 	include_weapon( "zombie_doublebarrel" );
 	include_weapon( "zombie_doublebarrel_upgraded", false );
-	include_weapon( "zombie_doublebarrel_sawed", true );
-	include_weapon( "zombie_doublebarrel_sawed_upgraded", false );
+	include_weapon( "zombie_doublebarrel_sawed" );		//restored
+	include_weapon( "zombie_doublebarrel_sawed_upgraded", false );		//restored
 	include_weapon( "zombie_shotgun" );
 	include_weapon( "zombie_shotgun_upgraded", false );
 
@@ -540,7 +544,6 @@ include_weapons()
 	include_weapon( "tesla_gun", true );
 	include_weapon( "tesla_gun_upgraded", false );
 	include_weapon( "zombie_cymbal_monkey", true, ::factory_cymbal_monkey_weighting_func );
-
 
 	//bouncing betties
 	include_weapon("mine_bouncing_betty", false);
