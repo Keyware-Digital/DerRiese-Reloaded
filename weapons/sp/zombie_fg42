@@ -5,7 +5,4 @@ gr_fg42_mag_out_plr gr_fg42_mag_out_plr
 gr_fg42_futz_plr gr_fg42_futz_plr 
 gr_fg42_mag_in_plr gr_fg42_mag_in_plr 
 gr_fg42_pull_plr gr_fg42_pull_plr 
-gr_fg42_release_plr gr_fg42_release_plr 
-bowie_swing bowie_swing
-bowie_stab bowie_stab
-bowie_pull bowie_pull
+gr_fg42_release_plr gr_fg42_release_plr
